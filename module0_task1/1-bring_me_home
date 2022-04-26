@@ -1,1 +1,7 @@
-echo
+pwd
+/Users/mttahmina
+echo $HOME
+/Users/mttahmina
+➜ source ./1-bring_me_home
+➜ pwd
+/Users/mttahmina
