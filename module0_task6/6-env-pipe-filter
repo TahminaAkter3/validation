@@ -1,2 +1,2 @@
-printenv | grep 'TERM*'
+printenv | grep '^TERM'
 
