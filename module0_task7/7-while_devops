@@ -1,6 +1,1 @@
-c=1
-while [ $c -le 10 ]
-do
-	echo "DevOps $c times"
-	(( c++ ))
-done
+x=1; while  [ $x -le 10 ]; do echo "DevOps" $(( x++ )); done
