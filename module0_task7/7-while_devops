@@ -1,8 +1,6 @@
-counter=1
-
-while [ $counter -le 10 ]; do
-	echo "DevOps"
-	((counter++));
-done;
-
-
+c=1
+while [ $c -le 10 ]
+do
+	echo "DevOps $c times"
+	(( c++ ))
+done
